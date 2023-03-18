@@ -10,6 +10,7 @@ public class ShortestpathfinderApplication {
 
 		SpringApplication.run(ShortestpathfinderApplication.class, args);
 		System.out.println("Spring Application is Running");
+		System.out.println("Why it is not working?");
 	}
 
 }
