@@ -1,10 +1,12 @@
 package com.example.shortestpathfinder;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
 @RestController
+@RequestMapping("/api")
 public class GraphController {
     private final Map<String, Node> nodeMap = new HashMap<>();
 
@@ -65,9 +67,7 @@ public class GraphController {
             currentNode = parent.get(currentNode);
         }
         Collections.reverse(path);
-
         return path;
     }
-
 
 }

@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ShortestpathfinderApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ShortestpathfinderApplication.class, args);
+		System.out.println("Spring Application is Running");
 	}
 
 }
