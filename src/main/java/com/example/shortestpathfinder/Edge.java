@@ -39,5 +39,5 @@ public class Edge {
     }
 
 
-    // Add getters and setters for the source, target, and weight
+    // Add getters and setters for the source, target, and weight and return the same results
 }
